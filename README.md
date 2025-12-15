@@ -1,39 +1,30 @@
-# ASISTENCIAVS2F — Excel VBA (Ausentismo y Asistencia)
+# ASISTENCIAVS2F – Excel VBA Attendance System
 
-Este repositorio contiene el **código VBA exportado** desde el archivo Excel `.xlsm` para automatizar el cálculo y visualización de **asistencias/ausentismo** por mes.
+This repository documents an Excel-based solution developed by me to support attendance tracking, standardization of absence codes, and automated reporting using Visual Basic for Applications (VBA).
 
-## Qué hace el proyecto
-- Lee códigos diarios de una hoja fuente (por defecto: `VSM2`).
-- Construye/actualiza la tabla mensual `ConteoTbl` en hojas por mes.
-- Calcula agregados y métricas (incluye indicadores de ausentismo operativo/administrativo según reglas implementadas en VBA/Excel).
-- Crea/actualiza gráficos (ausencias, control, operativo+target, composición).
+The project was created as a practical tool to reduce manual effort, improve data consistency, and provide a structured way to analyze attendance information in a production-oriented environment.
 
-## Hojas principales (según el archivo original)
-- `_CTRL`
-- `INSTRUCCIONES`
-- `VSM2` (fuente)
-- `AGOSTO_2025`, `SEPTIEMBRE_2025`, `OCTUBRE_2025`, `NOVIEMBRE_2025`, `DICIEMBRE_2025`
-
-## Estructura del repositorio
-- `src/` → módulos VBA exportados (`.bas`, `.cls`)
-- `docs/` → documentación/capturas (agrega aquí manuales o screenshots)
-
-## Importante (seguridad)
-- **No subas contraseñas** ni rutas internas.  
-  En el archivo original se detectó al menos una constante de contraseña (p.ej. `PROTECT_PASSWORD`). Para publicación:
-  - Sustituye contraseñas por placeholders.
-  - Usa `Config_TEMPLATE.bas` como plantilla y excluye `Config.bas` real con `.gitignore`.
-
-## Cómo reconstruir el .xlsm desde el repo (manual)
-1. Abre Excel → `ALT+F11` (VBA Editor).
-2. Importa archivos desde `src/`:
-   - `File > Import File...` para `.bas` y `.cls`
-3. Ajusta la configuración local (contraseñas/hoja fuente) en un módulo `Config.bas` (no versionado).
-
-## Recomendación para GitHub
-- **Repo público (portafolio):** sube `src/` + documentación + un `.xlsm` *sanitizado* (con datos dummy).
-- **Repo privado (uso real):** puedes subir el `.xlsm` completo, además de `src/`.
+This repository contains a **personal demonstration version** of the project. It reflects the real functionality and logic of the solution, but does not include operational, confidential, or personal data.
 
 ---
-Autor (según encabezados del código): Yael Velázquez Artolozaga  
-Última exportación: 2025-12-15
+
+## Project Background
+
+While working with attendance data in Excel, I identified recurring issues related to manual handling, inconsistent attendance codes, and limited automation. These issues increased the risk of errors and made reporting time-consuming and unreliable.
+
+To address this, I designed and developed a VBA-driven solution that centralizes the business logic, enforces basic validation rules, and prepares the data for reporting and dashboard usage. The focus of the project is not only on calculations, but also on **process reliability, repeatability, and clarity of information**.
+
+---
+
+## Main Features
+
+- Automated processing of attendance records using VBA  
+- Standardized attendance and absence codes  
+- Centralized calculation logic to avoid duplicated formulas  
+- Data prepared for reporting and dashboard integration  
+- Modular VBA structure for easier maintenance and future improvements  
+
+---
+
+## Repository Structure
+
