@@ -73,6 +73,13 @@ It is not intended to be deployed directly in a production environment without p
 
 **Yael Velázquez Artolozaga**  
 Excel & VBA Automation | Process Improvement | Data Analysis
+## Author
+
+Yael Velázquez Artolozaga  
+Excel & VBA Automation | Process Improvement | Data Analysis  
+
+This project is based on real-world industrial use cases developed during my professional experience in a manufacturing environment.
+
 
 
 
