@@ -28,3 +28,51 @@ To address this, I designed and developed a VBA-driven solution that centralizes
 
 ## Repository Structure
 
+src/ → Exported VBA source code (.bas, .cls, .frm)
+docs/ → Documentation and reference screenshots
+README.md
+SECURITY.md
+.gitignore
+
+
+- **src/** contains the VBA modules, classes, and forms exported from the Excel workbook.
+- **docs/** includes visual references and functional explanations of the solution.
+
+---
+
+## Technologies Used
+
+- Microsoft Excel  
+- Visual Basic for Applications (VBA)  
+
+---
+
+## Security and Data Considerations
+
+This repository does **not** include:
+- Real employee names or identifiers  
+- Operational or confidential data  
+- Passwords, credentials, or internal system references  
+
+Any sensitive elements present in the original working file were intentionally removed or replaced before publishing. Additional details are documented in `SECURITY.md`.
+
+---
+
+## Usage Notes
+
+This project is shared for:
+- Technical review and evaluation  
+- Demonstration of Excel and VBA automation practices  
+- Portfolio and learning purposes  
+
+It is not intended to be deployed directly in a production environment without proper adaptation, validation, and authorization.
+
+---
+
+## Author
+
+**Yael Velázquez Artolozaga**  
+Excel & VBA Automation | Process Improvement | Data Analysis
+
+
+
